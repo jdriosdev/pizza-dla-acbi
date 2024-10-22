@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pizza [
+
+    <!ELEMENT pizza (item+)>
+
+    <!ELEMENT item (name, price, imageFileName)>
+
+    <!ELEMENT name (#PCDATA)>
+
+    <!ELEMENT price (#PCDATA)>
+
+    <!ELEMENT imageFileName (#PCDATA)>
+]>
+
+
+<pizza>
+
+    <item>
+
+        <name>Pepperoni</name>
+
+        <price>$5.00</price>
+
+        <imageFileName>Pepperoni.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Simply Cheese</name>
+
+        <price>$5.00</price>
+
+        <imageFileName>simplyCheese.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Beef &amp; Onion</name>
+
+        <price>$5.00</price>
+
+        <imageFileName>beef&amp;Onion.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Cheesy Garlic</name>
+
+        <price>$5.00</price>
+
+        <imageFileName>cheesyGarlic.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Vegetable</name>
+
+        <price>$5.00</price>
+
+        <imageFileName>vegetable.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Margherita</name>
+
+        <price>$5.00</price>
+
+        <imageFileName>margherita.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Ham &amp; Cheese</name>
+
+        <price>$5.00</price>
+
+        <imageFileName>ham&amp;Cheese.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Hawaiian</name>
+
+        <price>$5.00</price>
+
+        <imageFileName>Hawaiian.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Supreme</name>
+
+        <price>$10.00</price>
+
+        <imageFileName>Supreme.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Chicken Supreme</name>
+
+        <price>$10.00</price>
+
+        <imageFileName>chickenSupreme.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Fire Breather</name>
+
+        <price>$10.00</price>
+
+        <imageFileName>fireBreather.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Indi Chicken Tikka</name>
+
+        <price>$10.00</price>
+
+        <imageFileName>indiChickenTikka.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Spicy Peppy Paneer</name>
+
+        <price>$10.00</price>
+
+        <imageFileName>spicyPeppyPaneer.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Loaded Pepperoni</name>
+
+        <price>$10.00</price>
+
+        <imageFileName>loadedPepperoni.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Godfather</name>
+
+        <price>$10.00</price>
+
+        <imageFileName>Godfather.jpeg</imageFileName>
+
+    </item>
+
+    <item>
+
+        <name>Vegorama</name>
+
+        <price>$10.00</price>
+
+        <imageFileName>Vegorama.jpeg</imageFileName>
+
+    </item>
+
+
+</pizza>
